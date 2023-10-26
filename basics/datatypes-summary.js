@@ -31,3 +31,24 @@ const myFunction = function(){
 }
 
 // console.log(typeof null) // it will give output a s Object
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "Vikash" 
+
+let anothername = myYoutubename
+anothername = "chaiaurcode";
+console.log(myYoutubename);
+console.log(anothername); //value will overwrite
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@ybl",
+}
+
+let userTwo = userOne
+userTwo.email = "vikash@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email); //both value will changed because it is referenced
+
