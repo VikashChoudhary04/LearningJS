@@ -23,3 +23,17 @@ let someNumber = 34
 let stringNumber = String(someNumber)
 console.log(typeof stringNumber);
 console.log(stringNumber);
+
+// ********** Operations ********
+
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+let str1 = "Hello"
+let str2 = " Vikash"
+let str3 = str1 + str2
+console.log(str3);
+
+// link for stusy
+// mdn and ecma
