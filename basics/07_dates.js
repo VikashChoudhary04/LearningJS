@@ -24,4 +24,4 @@ console.log(newDate.getDay());
 
 newDate.toLocaleString('default',{
     weekday: "long",
-})
+})      // default means default time zone and long means full monday written full
