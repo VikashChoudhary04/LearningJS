@@ -2,7 +2,8 @@
 const coding = ["js", "ruby", "java", "java", "python", "cpp"]
 coding.forEach(function (item) {
     console.log(val); // prints the value
-}) // function name nhi hoga kuki for each function call back function h 'item' srf ek variable h array traverse krne ke liye kuki ye function array ke andar chl ra h to isliye har value khud me ek parameter rhega
+}) // function name nhi hoga kuki for each function call back function h 'item' object h array jisko use krke hmlog array access kr skte h
+
 
 // using Arrow
 coding.forEach( (item) => {
@@ -34,5 +35,5 @@ const myCoding= [
 ]
 
 myCoding.forEach( (item) => {
-    console.log(item.languageName); //item here is an object for accessing the objects of array
+    console.log(item.languageName); //item here is an object for accessing the contents of array
 })
