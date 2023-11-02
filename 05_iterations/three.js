@@ -1,3 +1,5 @@
+// *for of loop majorly used in array, map*
+
 const arr = [1,2,3,4,5]
 // for (const num of object) refer next line
 for (const i of arr)
